@@ -1,0 +1,37 @@
+<html>
+    <body>
+            <div id="title">
+                    <h1><b>Welcome to Barieeba's Page</b></h1>
+                    <P>This is where the dream begins</P>
+                    <button onclick="MakeDreamBegins()">Make dream begins</button>
+            </div>
+</body>
+</html>
+
+<style>
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtLjkeFqt7mN6_oeiID-lTVdTHpZFl6SqiXry4kWMLO9dPR0Ahh9laxVQ&s=10");
+    background-size: cover;
+}
+h1 {
+    color: blue;
+}
+button:hover {
+    background-color:green;
+    cursor: pointer;
+    font-size: 20px;
+}
+#title {
+    border: solid white 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    }
+</style>
+
+<script>
+    function MakeDreamBegins() {
+        document.body.style.background= "url('https://cdn.pixabay.com/animation/2025/08/10/13/31/13-31-29-692_512.gif')";
+        document.getElementById("title").style.visibility = "hidden";
+   }
+</script>
