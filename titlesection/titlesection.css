@@ -1,0 +1,24 @@
+:root {
+    --titleSectionPrimaryColor: white;
+}
+
+#title {
+    color: var(--titleSectionPrimaryColor);
+    text-align: center;
+    padding-top: 200px;
+    background-image: url("../images/cool-background.avif");
+    background-position: center top;
+    }
+
+.title-section-button {
+    color: var(--titleSectionPrimaryColor);
+    border: solid var(--titleSectionPrimaryColor) 1px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    background-color: transparent;
+}
+
+.title-section-button:hover {
+    background-color: green;
+    cursor: pointer;
+}
